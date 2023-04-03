@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+
 <!--Added title including name of the company and for SEO on web browser added description of service-->
     <title>Horiseon | Digital Marketing Services</title>
 </head>
 
 <body>
+    
 <!--Removed the <div> and added the <header> semantic tag for the content in the intro-->
-    <header class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+
+ <!--Replaced the <div> with a <nav> semantic tag inside the parent element to section navigational links for the web browser. Changed as well on CSS to reflect function on the styling for the links.-->       
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,52 +28,60 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
+
     <!--Leaving <div> as the container since its only a picture and no content. Added the <img> with attributes for accesbility by the users. Deleted on CSS style sheet the background-image property.-->
     <div>
-        <img class="hero" src="assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting Picture"/>
+        <img id="image-meeting" src="assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting Picture"/>
     </div>
-    <!--Removed the <div> and added the <main> semantic tag to group the related content together for structure. Replaced each <div> with <article> semantic tags with it's own content inside the <main>. Added alt attributes to each <img> for user accessibility-->
-    <main class="content">
-        <section class="search-engine-optimization">
-            <img class="float-left" src="assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization Picture" />
+
+    <!--Removed the <div> and added the <main> semantic tag to group the related content together for structure. Replaced each <div> with <section> semantic tags with it's own content inside the <main>. Added alt attributes to each <img> for user accessibility-->
+    <main>
+
+    <!--Renamed the class attribute to group the content together for styling-->    
+        <section class="section-service">
+            <img class="image-left" src="assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization Picture" />
             <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
-            <img class="float-right" src="assets/images/online-reputation-management.jpg" alt="Online Reputation Management Picture" />
+        <section class="section-service">
+            <img class="image-right" src="assets/images/online-reputation-management.jpg" alt="Online Reputation Management Picture" />
             <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
-            <img class="float-left" src="assets/images/social-media-marketing.jpg" alt="Social Media Marketing Picture"/>
+        <section class="section-service">
+            <img class="image-left" src="assets/images/social-media-marketing.jpg" alt="Social Media Marketing Picture"/>
+            <h2>Social Media Marketing</h2>
                 <p>
                     Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
                 </p>
         </section>
     </main>
+
     <!-- Replaced <div> with the <aside> semantic tag to group the related content/topics in this container away from the <main> and added <section> semantic tags inside the <aside> for the individual content to be placed. Added alt attributes to each <img> for user accessibility-->
-    <aside class="benefits">
-        <section class="benefit-lead">
+    <aside>
+
+    <!--Renamed the class attribute to group the content together for styling-->  
+        <section class="section-benefit">
             <h3>Lead Generation</h3>
             <img src="assets/images/lead-generation.png" alt="Lead Generation Picture" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
         </section>
-        <section class="benefit-brand">
+        <section class="section-benefit">
             <h3>Brand Awareness</h3>
             <img src="assets/images/brand-awareness.png" alt="Brand Awareness Picture"/>
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
         </section>
-        <section class="benefit-cost">
+        <section class="section-benefit">
             <h3>Cost Management</h3>
             <img src="assets/images/cost-management.png" alt="Cost Management Picture"/>
                 <p>
@@ -77,9 +89,12 @@
                 </p>
         </section>
     </aside>
-    <!--Replaced <div> with a <footer> semantic tag to seperate the <main>, <aside>, and <header> content for the structure of the web page-->
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+
+    <!--Replaced <div> with a <footer> semantic tag to seperate the <main>, <aside>, and <header> content for the structure of the web page. Removed class attribute in the <footer>-->
+    <footer>
+
+    <!--Changed the heading from <h2> to follow sequential order-->    
+        <h3>Made with ❤️️ by Horiseon</h3>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
