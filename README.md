@@ -1,60 +1,50 @@
-# 01-challenge
+# horiseon-refactored
 
 ## Description
 
-This project is refactoring an existing code to improve it without changing its functionality. The purpose of this project is to meet a certain set of standards or to implement new technology.
+This project is refactoring an existing code to improve it without changing its functionality and making it accessible. The purpose of this project is to meet a certain set of standards or to implement new technology for users. 
 
+The motivation behind this project is to showcase the ability to refactor code, which is an essential task for front-end and back-end developers. Refactoring helps to improve the codebase and make it more efficient.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The problem solved by this project is to make the code more accessible for people with disabilities, such as screen readers. In addition, it makes the code more search engine friendly by improving the semantic structure of the HTML code.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+Through this project, I learned the importance of code refactoring, how to refactor code without changing its functionality, and how to improve the accessibility and search engine optimization of the code.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this project, follow these steps:
+
+1. Clone the repository on your local machine using the following command:
+
+git clone https://github.com/Jalzu1007/horiseon-refactored.git
+
+2. Open the index.html file in your web browser to view the webpage.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use this project, simply open the index.html file in your web browser. The webpage will display the refactored code, which is more accessible and search engine friendly.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Deployed website:
 
-![alt text](assets/images/screenshot.png)
+https://jalzu1007.github.io/horiseon-refactored/
+
+Screenshot of the refactored code:
+
+![alt text](assets/images/screenshot-horiseon1.png) ![alt text](assets/images/screenshot-horiseon2.png) ![alt text](assets/images/screenshot-horiseon3.png)
+
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I used the following third-party assets in this project:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://www.markdownguide.org/basic-syntax/
+- https://www.w3schools.com/html/html_accessibility.asp
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://www.whoisaccessible.com/guidelines/how-to-use-the-chrome-lighthouse-for-accessibility-audits/
+- https://meiert.com/en/blog/dry-css/
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here
+N/A
