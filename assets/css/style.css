@@ -32,15 +32,6 @@ nav {
     font-size: 20px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -48,6 +39,15 @@ ul {
 li {
     display: inline-block;
     margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Removed the parent and left the class selector for style */
@@ -71,7 +71,12 @@ main {
     margin-left: 20px;
 }
 
-/* Condensed selectors and grouped them together, aswell renamed the class selector to semantic and topic */
+/* Condensed selectors and grouped them together following UDJO*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .section-service {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,11 +88,6 @@ main {
 
 .section-service img {
     max-height: 200px;
-}
-
-.section-service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .image-left {
@@ -112,15 +112,15 @@ aside {
     background-color: #2589bd;
 }
 
-/* Condensed the selectors in groupings, and renamed the class selector to semantic and topic */
+/* Condensed selectors and grouped them together following UDJO*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .section-benefit {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.section-benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .section-benefit img {
@@ -129,7 +129,7 @@ aside {
     max-width: 150px;
 }
 
-/* Footer semantic tag styling refactored the class selector to a tag selector */
+/* Footer semantic tag styling, refactored the class selector to a tag selector */
 footer {
     padding: 30px;
     clear: both;
@@ -137,6 +137,6 @@ footer {
     text-align: center;
 }
 
- footer h3 {
+h4 {
     font-size: 20px;
 }
